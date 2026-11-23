@@ -1,0 +1,41 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model checkpoints and weights
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Generated outputs
+outputs/
+live_app_results/
+runs/
+wandb/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.kaggle/
+
+# Mac files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
